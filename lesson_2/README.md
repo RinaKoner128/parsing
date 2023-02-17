@@ -11,5 +11,5 @@
   > Для парсинга использован XPath.
 ### Скриншот результата выполнения запроса.
 
-![scr](https://github.com/RinaKoner128/parsing/tree/main/lesson_2/parsing_lenta.JPG)
+![scr](https://github.com/RinaKoner128/parsing/blob/adm/lesson_2/parsing_lenta.JPG)
 
