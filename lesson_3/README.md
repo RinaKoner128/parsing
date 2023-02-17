@@ -16,11 +16,11 @@
 Для примера собираем информацию о вакансиях, содержащих в назнании профессии, должности или компании "python",
 и предположим, что мы хотим собрать данные с 3 страниц сайта
 
-![scr](https://github.com/RinaKoner128/parsing/tree/main/lesson_3/param_hh.JPG)
+![scr](https://github.com/RinaKoner128/parsing/blob/adm/lesson_3/param_hh.JPG)
 
 Получаем таблицу, состоящую из 60 строк (3 страницы по 20 вакансий).
 
-![scr](https://github.com/RinaKoner128/parsing/tree/main/lesson_3/hh_csv.JPG)
+![scr](https://github.com/RinaKoner128/parsing/blob/adm/lesson_3/hh_csv.JPG)
 
 
 
