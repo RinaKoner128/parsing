@@ -16,5 +16,5 @@
 Для примера собираем информацию о вакансиях, содержащих в назнании профессии, должности или компании "python",
 и предположим, что мы хотим собрать данные с 3 страниц сайта, а желаемая зарплата не менее 100 000 рублей. 
 
-![scr](https://github.com/RinaKoner128/parsing/tree/main/lesson_3/hh_bd.PNG)
+![scr](https://github.com/RinaKoner128/parsing/blob/adm/lesson_4/hh_bd.PNG)
 
