@@ -7,6 +7,7 @@ import scrapy
 
 
 class ParserJobItem(scrapy.Item):
+    _id = scrapy.Field()
     name = scrapy.Field()
     url = scrapy.Field()
     min_salary = scrapy.Field()

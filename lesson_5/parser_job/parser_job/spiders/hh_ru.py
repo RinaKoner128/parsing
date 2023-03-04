@@ -37,6 +37,7 @@ class HhRuSpider(scrapy.Spider):
 
 
     def parse_vacancy(self, response:HtmlResponse):
+        vacancy_id = response.url
         vacancy_name = response.css("h1::text").get()
         vacancy_salary = response.xpath("//div[@data-qa='vacancy-salary']//text()").getall()
         vacancy_url = response.url
@@ -48,6 +49,7 @@ class HhRuSpider(scrapy.Spider):
 
 
         yield ParserJobItem(
+            _id = vacancy_id,
             name = vacancy_name,
             url = vacancy_url,
             min_salary = vacancy_min,
