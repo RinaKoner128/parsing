@@ -1,0 +1,12 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Lesson_5.scrapy.project_parser_hh.spiders.hh_ru.project_parser_hh" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
