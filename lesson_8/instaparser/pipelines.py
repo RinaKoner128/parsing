@@ -14,10 +14,8 @@ class InstaparserPipeline:
         self.mongobase = client.instagram
 
     def process_item(self, item, spider):
-        collection = self.mongobase[item.get('username')]
-        collection.insert_one(item)
+        # collection = self.mongobase[item.get('username')]
+        # collection.insert_one(item)
+        print('\n*************\n%s\n%s\n*************************' % (item, spider))
+
         return item
-
-
-
-

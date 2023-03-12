@@ -14,10 +14,3 @@ class InstaparserItem(scrapy.Item):
     likes = scrapy.Field()
     post_data = scrapy.Field()
     _id = scrapy.Field()
-
-
-
-
-
-
-
